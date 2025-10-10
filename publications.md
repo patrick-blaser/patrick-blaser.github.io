@@ -1,8 +1,31 @@
 ---
 layout: page
 title: Publications
-subtitle: 
+subtitle: (last update: 10.10.2025)
 ---
+## 2025
+
+- **Expansion of Antarctic Bottom Water driven by Antarctic warming in the last deglaciation.**<br> Huang H, Gutjahr M., Hu Y., Pöppelmeier F., Kuhn G., Lippold J., Ronge T. A., Wu S., **Blaser P.**, Jaccard S. L., Luo Y., Yu J., Lembke-Jene, L. (2025). Accepted at *Nature Geoscience*.
+
+- **Abyssal seafloor as a key driver of marine biogeochemical cycles.**<br> Du J., Haley B.A., McManus J., **Blaser P.**, Rickli J., Vance D. (2025). *Nature* 642, 620–627  [&#128214;](https://doi.org/10.1038/s41586-025-09038-3){:target="_blank"}
+
+- **Prevalent North Atlantic Deep Water during the Last Glacial Maximum and 
+Heinrich Stadial 1.**<br> **Blaser P.**, Waelbroeck C., Thornalley D.J., Lippold J., Pöppelmeier F., Kaboth-Bahr S., Repschläger J., Jaccard S.L (2025). *Nature Geoscience* 18, 410–416  [&#128214;](https://doi.org/10.31223/X59710){:target="_blank"}
+
+- **The Role of the St. Anna Trough in Atlantic Water Transport Into the Arctic Ocean: A Novel Radiogenic Isotope Assessment Using Iodine, Uranium, and Neodymium.**<br>Pérez-Tribouillier, H., Jaccard, S.L., **Blaser, P.**, Christl, M., Creac’h, L., Hölemann, J., Scheiwiller, M., Vockenhuber, C., Wefing, A.M., Casacuberta, N. (2025). *Journal of Geophysical Research: Oceans* 130, e2024JC022050  [&#128214;](https://doi.org/10.31223/X59710){:target="_blank"}
+
+- **Peak glacial-to-Heinrich-1 changes in Denmark Strait Overflow and seawater stratification in the Nordic Seas, a switchboard of changes in Atlantic Meridional Overturning Circulation and the “Nordic Heat Pump”.**<br>Sarnthein, M. and **Blaser, P.** (2025). *Quaternary Science Reviews* 100266  [&#128214;](https://doi.org/10.1016/j.quascirev.2025.109181){:target="_blank"}
+
+- **Reconstruction of deep-water undercurrent variability from the outer Labrador Sea during the past 550,000 years.**<br>Kaboth-Bahr, S., Bahr, A., **Blaser, P.**, Voelker, A.H.L., Lippold, J., Gutjahr, M., Hodell, D.A., Channell, J.E.T., de Vernal, A., Hillaire-Marcel, C. (2025). *Quaternary Science Advances* 355, 109181  [&#128214;](https://doi.org/10.1016/j.qsa.2025.100266){:target="_blank"}
+
+<br>
+
+## 2023
+
+- **Atlantic Thermocline Ocean and Ecosystems Dynamic during Natural Climate Change - ATHENA, Cruise No. M151, October 06, 2018 - October 31, 2018, Ponta Delgada (Portugal) - Funchal (Portugal)**<br>PFrank, N., Hebbeln, D., **Blaser, P.**, Carreiro-Silva, M., Diekamp, V., Eichstädter, R., Freiwald, A., Gaide, S., Günther, B., Hemsing, F., Hoffman, L., Krengel, T., Lausecker, M., Leymann, T., Link, J., Linnemann, U., Matos, L., Nowald, N., Raddatz, J., Schade, T., Schröder, M., Schröder-Ritzrau, A., Seiter, C., Speicher, R., Stelzner, M., Tamborrino, L., Wefing, A.-M., Wenzel, J., Wienberg, C. (2023). *Cruise Report*  [&#128214;](https://doi.org/10.48433/cr_m151){:target="_blank"}
+
+<br>
+
 ## 2022
 
 - **Neodymium isotopes as a paleo-water mass tracer: A model-data reassessment.**<br>Pöppelmeier, F., Lippold, J., **Blaser, P.**, Gutjahr, M., Frank, M., Stocker, T.F. (2022). *Quaternary Science Reviews* 279, 107404. [&#128214;](https://www.sciencedirect.com/science/article/pii/S027737912200035X){:target="_blank"}
