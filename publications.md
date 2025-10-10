@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-subtitle: (last update: 10.10.2025)
+subtitle:
 
 ---
 
