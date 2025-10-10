@@ -5,7 +5,6 @@ subtitle:
 
 ---
 
-<br>
 ## 2025
 
 - **Expansion of Antarctic Bottom Water driven by Antarctic warming in the last deglaciation.**<br> Huang H, Gutjahr M., Hu Y., Pöppelmeier F., Kuhn G., Lippold J., Ronge T. A., Wu S., **Blaser P.**, Jaccard S. L., Luo Y., Yu J., Lembke-Jene, L. (2025). Accepted at *Nature Geoscience*.
