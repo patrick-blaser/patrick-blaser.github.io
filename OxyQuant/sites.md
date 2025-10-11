@@ -53,8 +53,8 @@ Current OxyQuant sediment core sites:
 
 
 
-{: .box-warning}
-I am currently searching for **further suitable sediment cores**. Please get in touch if you happen to know of any and want to collaborate! Click [**here**](/OxyQuant/site_specs) for more details about suitable sediment cores.
+ [//]: # "{: .box-warning}
+I am currently searching for **further suitable sediment cores**. Please get in touch if you happen to know of any and want to collaborate! Click [**here**](/OxyQuant/site_specs) for more details about suitable sediment cores."
 
 
 <figure>
