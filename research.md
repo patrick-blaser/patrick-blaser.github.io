@@ -21,3 +21,9 @@ The Southern Ocean connects all world oceans and hosts formation of the densest 
 ## Deep sea sediments as sinks and sources of dissolved trace metals
 
 The oceans are full of trace metals that reside in the water column for different durations, depending on their chemical speciation and specific conditions of the seawater. Marine sediments are a major sink for most of them, leading to their long time storage and geological recycling. Thus, the distribution of these trace metals in the seawater-derived phase of sediments can yield information about the conditions of past seawater. For example, the speciation and thus reactivity and residence time of many trace metals depends on the seawater redox conditions, which are tightly linked to oxygen concentrations and can therefore serve as a proxy for past deep ocean  oxygenation.
+
+<br>
+
+## Rare earth elements as versatile environmental proxies
+
+The rare earth elements are a group of 16 chemical elements with very similar chemical properties. They occur in low concentrations across natural waters, sediments, and soils, but they exhibit systematic chemical behaviour across the series. Because of this coherent yet predictable variability, rare earth elements are excellent tracers of water-rock interaction, redox conditions, and biogeochemical processes. In my research, I use rare earth element signatures to reconstruct how freshwater and marine systems evolve, which chemical processes prevail, and how they are affected by pollution. This approach provides a sensitive tool for tracking environmental change and identifying anthropogenic influence.
