@@ -281,6 +281,16 @@
     </div>
 
     <div class="panel">
+      <h2>Data coverage</h2>
+      <div class="field-top">
+        <span>Site coverage</span>
+        <span class="val" id="covVal">20%</span>
+      </div>
+      <input type="range" id="covSlider" min="0" max="10" value="2">
+      <button class="ghost" id="reshuffleBtn" style="margin-top:10px;">Resample gap locations</button>
+    </div>
+
+    <div class="panel">
       <h2>Proxy records</h2>
       <div class="seg-label">Maximum proxies allowed at once</div>
       <div class="seg" id="maxColorSeg">
@@ -360,16 +370,6 @@
           </select>
         </div>
       </div>
-    </div>
-
-    <div class="panel">
-      <h2>Data coverage</h2>
-      <div class="field-top">
-        <span>Site coverage</span>
-        <span class="val" id="covVal">0%</span>
-      </div>
-      <input type="range" id="covSlider" min="0" max="10" value="0">
-      <button class="ghost" id="reshuffleBtn" style="margin-top:10px;">Resample gap locations</button>
     </div>
 
     <div class="panel">
@@ -468,6 +468,19 @@
     B: document.getElementById('chB_bias'),
   };
   const CHANNEL_INDEX = {R:0,G:1,B:2};
+
+  // Give each proxy one of the three biased response curves at random on load, so the
+  // demo doesn't start out pretending every proxy is perfectly calibrated.
+  (function randomizeInitialBias(){
+    const curves = ['satur80', 'plateau30', 'thresh'];
+    for(let i=curves.length-1;i>0;i--){
+      const j = Math.floor(Math.random()*(i+1));
+      const tmp = curves[i]; curves[i] = curves[j]; curves[j] = tmp;
+    }
+    biasEls.R.value = curves[0];
+    biasEls.G.value = curves[1];
+    biasEls.B.value = curves[2];
+  })();
 
   const syncResToggle = document.getElementById('syncResToggle');
   let syncRes = false;
