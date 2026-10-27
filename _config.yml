@@ -29,6 +29,8 @@ navbar-links:
    - Sites: "OxyQuant/sites"
    - Collaborators: "OxyQuant/collaborators"
    - Proxies: "OxyQuant/proxies"
+  Other:
+   - Incomplete Paleo Data Demo: "Other/PaleoDataDemo" 
 
 ################
 # --- Logo --- #
