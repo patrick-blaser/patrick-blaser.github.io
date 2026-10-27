@@ -253,14 +253,13 @@
 
 <h1>What Incomplete Data Hides</h1>
 <p class="lead">
-  Each colour channel of this image (red, green, blue) stands in for an independent paleo-proxy
-  record &mdash; think tree rings, ice cores, or sediment cores. Real proxies are never perfect:
-  they can be <strong>biased</strong> (a systematic, non-linear relationship between the true
+  Each colour channel of this image (blue, green, red) stands in for an independent paleo-proxy
+  &mdash; think tree ring thickness, ice core carbon dioxide, or sediment core geochemistry. Real proxies are never perfect:
+  they are often <strong>biased</strong> (a systematic, non-linear relationship between the true
   environmental value and what the proxy actually records), <strong>noisy</strong> (imprecise at
   any given point), <strong>coarse in resolution</strong> (tree rings integrate a year, sediment
   layers can blur decades or more), and <strong>incomplete in coverage</strong> (no site, no
-  signal, for that stretch of time or space). Degrade the three "proxies" below and watch how much
-  of the true picture survives the reconstruction.
+  signal, for that stretch of time or space). Improve the resolution and coverage of the three "proxies" below and watch how much resolution and how many proxies you need in order to figure out what the image shows. Three images are pre-set, and you can also upload your own image. Let me know if you find a great (freely accessible) image I can add!
 </p>
 
 <div class="layout">
@@ -310,7 +309,7 @@
 
       <div class="proxy-row-slider">
         <div class="field-top">
-          <span class="swatch-label"><span class="swatch" style="background:#4b8ef1;"></span>Proxy C (blue)</span>
+          <span class="swatch-label"><span class="swatch" style="background:#4b8ef1;"></span>Proxy A (blue)</span>
           <span class="val" id="resVal_B">off</span>
         </div>
         <input type="range" id="chB" min="0" max="40" value="0">
@@ -352,7 +351,7 @@
 
       <div class="proxy-row-slider proxy-sub">
         <div class="field-top">
-          <span class="swatch-label"><span class="swatch" style="background:#e5484d;"></span>Proxy A (red)</span>
+          <span class="swatch-label"><span class="swatch" style="background:#e5484d;"></span>Proxy C (red)</span>
           <span class="val" id="resVal_R">off</span>
         </div>
         <input type="range" id="chR" min="0" max="40" value="0">
@@ -377,7 +376,7 @@
       <div class="stats">
         <div class="stat"><div class="k">Active proxies</div><div class="v" id="statProxies">0 / 3</div></div>
         <div class="stat"><div class="k">Coverage</div><div class="v" id="statCov">0%</div></div>
-        <div class="stat"><div class="k">Resolution</div><div class="v" id="statGrid">R off · G off · B off</div></div>
+        <div class="stat"><div class="k">Resolution</div><div class="v" id="statGrid">B off · G off · R off</div></div>
         <div class="stat"><div class="k">Gap patches</div><div class="v" id="statGaps">&ndash;</div></div>
       </div>
       <button class="ghost" id="resetBtn">Reset to full data</button>
@@ -405,11 +404,11 @@
 <p class="caption">
   Reading the demo:
   <ul>
+    <li><strong>Coverage</strong> marks patches of the image as having no proxy site at all &mdash; those pixels fall back to the same flat average you'd see with every proxy switched off, so a gap is invisible until some proxy is active and its real signal departs from that fallback.</li>
     <li><strong>Adding a proxy</strong> (turning on a colour) restores one more independent line of evidence &mdash; with only one or two active, large parts of the true picture stay hidden.</li>
     <li><strong>Resolution</strong> (main slider per proxy) controls how coarsely that record samples space &mdash; like yearly tree rings versus multi-decade sediment layers. The sync toggle forces all active proxies to share one resolution, the way a single sampling network often does.</li>
     <li><strong>Precision</strong> adds proxy noise: a fixed, pixel-level scatter around the true value that doesn't change as you move other sliders, mimicking real measurement imprecision.</li>
     <li><strong>Response curve</strong> introduces calibration bias &mdash; e.g. a proxy that saturates early, flattens through the middle of its range, or jumps abruptly at a threshold, so the shown value stops tracking the true one faithfully.</li>
-    <li><strong>Coverage</strong> marks patches of the image as having no proxy site at all &mdash; those pixels fall back to the same flat average you'd see with every proxy switched off, so a gap is invisible until some proxy is active and its real signal departs from that fallback.</li>
   </ul>
 </p>
 
@@ -768,7 +767,7 @@
     const activeCount = ['R','G','B'].filter(k=>!results[k].flat).length;
     statProxies.textContent = activeCount + ' / ' + maxColors;
     badgeProxies.textContent = activeCount + ' / ' + maxColors + ' proxies active';
-    statGrid.textContent = 'R ' + results.R.label + ' · G ' + results.G.label + ' · B ' + results.B.label;
+    statGrid.textContent = 'B ' + results.B.label + ' · G ' + results.G.label + ' · R ' + results.R.label;
   }
 
   function regenerateGaps(){
