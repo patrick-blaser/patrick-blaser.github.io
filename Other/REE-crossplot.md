@@ -1,7 +1,7 @@
 ---
 layout: page
 title: REE cross-plot (MREE/MREE* vs HREE/LREE)
-subtitle: Interactive tool for rare earth element patterns in paleoceanography
+subtitle: Interactive tool for rare earth element patterns in marine geochemistry
 ---
 
 This tool places your rare earth element (REE) data on the MREE/MREE\* vs HREE/LREE cross-plot, together with the marine authigenic array, the detrital array and density fields of published foraminifera, pore water and seawater data (including GEOTRACES IDP2025). The diagram follows Du et al. (2016) and Blaser et al. (2020, Fig. 3).
