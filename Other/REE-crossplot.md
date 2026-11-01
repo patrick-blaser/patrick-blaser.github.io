@@ -4,11 +4,11 @@ title: REE cross-plot (MREE/MREE* vs HREE/LREE)
 subtitle: Interactive tool for rare earth element patterns in marine geochemistry
 ---
 
-This tool places your rare earth element (REE) data on the MREE/MREE\* vs HREE/LREE cross-plot, together with the marine authigenic array, the detrital array and density fields of published foraminifera, pore water and seawater data (including the GEOTRACES IDP2025). The diagram was introduced by Martin et al. (2010); Du et al. (2016) added the authigenic and detrital arrays, and Blaser et al. (2020, Fig. 3) the reference fields.
+Do you measure rare earth element (REE) concentrations on Earth surface samples, but are not an expert in their evaluation and interpretation? With this  tool you can interpret the shape of your rare earth element concentration profiles. It places your REE data on the MREE/MREE\* vs HREE/LREE cross-plot, together with the marine authigenic array, the detrital array and density fields of published foraminifera, marine pore water and seawater data (including the GEOTRACES IDP2025). The diagram was introduced by Martin et al. (2010); Du et al. (2016) added the authigenic and detrital arrays, and Blaser et al. (2020, Fig. 3) the reference fields. Moreover, the tool can be used to plot the REE concentration spectra, screen the quality of your REE data, estimate the contribution of anthropogenic gadleolinium (Gd), and download all calculated data. 
 
-**How to use it.** Tick *Use example data* or upload your own file with one row per sample and one column per element (`La`, `Ce`, ..., `Lu`; names such as `La_ppm` or `La [mg/kg]` work). CSV and TSV files work, and so do `.tab` files downloaded from [PANGAEA](https://www.pangaea.de): their metadata header is skipped, the dataset citation is shown and carried into the results, and mass or molar units are recognised from the column names. Choose the shale or chondrite normalisation and, optionally, a group column, screening limits and how anthropogenic Gd is handled.
+**How to use it:** Tick *Use example data* or upload your own file with one row per sample and one column per element (`La`, `Ce`, ..., `Lu`; names such as `La_ppm` or `La [mg/kg]` work). CSV and TSV files work, and so do `.tab` files downloaded from [PANGAEA](https://www.pangaea.de): their metadata header is skipped, the dataset citation is shown and carried into the results, and mass or molar units are recognised from the column names. Choose the shale or chondrite normalisation and, optionally, a group column, screening limits and how anthropogenic Gd is handled.
 
-The *Spectra* tab shows the normalised REE patterns, *Data quality* compares the roughness of your patterns with the reference data to flag noisy or interference-affected analyses, and *Computed values* lists all results with the settings used. The buttons below each plot download the figures and the data. Your data are processed in your browser and are not uploaded to any server.
+The *Spectra* tab shows the normalised REE patterns, *Data quality* compares the *'roughness'* of your patterns with the reference data to flag noisy or interference-affected analyses, and *Computed values* lists all results with the settings used. The buttons below each plot download the figures and the data. Your data are processed in your browser and are not uploaded to any server.
 
 The first load takes a little while, because the R environment (WebAssembly) is downloaded. For a larger view, [open the tool in its own window](https://patrick-blaser.github.io/ree-crossplot/){:target="_blank"}.
 
@@ -20,6 +20,8 @@ The first load takes a little while, because the R environment (WebAssembly) is 
   allow="clipboard-write"></iframe>
 
 **Source code, R functions and documentation:** [github.com/patrick-blaser/ree-crossplot](https://github.com/patrick-blaser/ree-crossplot). The repository also provides the calculations as stand-alone R functions (`functions/REE_functions.R`) for scripted work, giving the same results as the tool. The methods, options and all references are in the *About & references* tab of the tool.
+
+If you like this tool, and if you have ideas of how to improve it, let me know! Also, if you think your REE data distribution look interesting, but are unsure about how to interpret them, feel free to reach out!
 
 **Please cite** Blaser et al. (2020) when using the tool or its figures. Citing Martin et al. (2010) and Du et al. (2016) as well is optional but appreciated, and data from PANGAEA or the GEOTRACES IDP2025 should be cited as their licences require.
 
