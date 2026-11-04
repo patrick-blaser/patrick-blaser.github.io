@@ -59,22 +59,22 @@ round-avatar: true
 social-network-links:
   email: "patrick.blaser@unil.ch"
 #  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-#  facebook: deanattali
+#  facebook: yourname
   github: patrick-blaser
-#  twitter: PaddyLaser
-#  patreon: DeanAttali
-#  youtube: "@daattali"
-#  whatsapp: 15551212
+#  twitter: yourname
+#  patreon: yourname
+#  youtube: "@yourname"
+#  whatsapp: yournumber
 #  medium: yourname
 #  reddit: yourname
   linkedin: Patrick Blaser
 #  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
+#  stackoverflow: yourname
+#  snapchat: yourname
+#  instagram: yourname
 #  spotify: yourname
   telephone: +41 21692 4452
-#  steam: deanat78
+#  steam: yourname
 #  twitch: yourname
 #  yelp: yourname
 #  telegram: yourname
@@ -82,7 +82,7 @@ social-network-links:
 #  mastodon: instance.url/@username
   bluesky: paddylaser.bsky.social
   ORCID: 0000-0001-8102-9777
-  google-scholar: citations?user=IKcPdFcAAAAJ&hl=en&oi=ao
+  google-scholar: IKcPdFcAAAAJ
 #  discord: "invite_code" or "users/userid" or "invite/invite_code" 
 #  kaggle: yourname
 #  hackerrank: yourname
@@ -107,7 +107,6 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
 
 # Add the website title to the title of every page
 title-on-all-pages: false
