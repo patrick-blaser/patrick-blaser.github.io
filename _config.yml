@@ -31,7 +31,7 @@ navbar-links:
    - Proxies: "OxyQuant/proxies"
   Other:
    - Incomplete Paleo Data Demo: "Other/PaleoDataDemo" 
-   - REE data analysis: "Other/REE-crossplot"
+   - REE data analysis: "Other/REE-analysis"
 
 ################
 # --- Logo --- #
