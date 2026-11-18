@@ -8,7 +8,7 @@ footer-extra: OxyQuant_image_source.html
 
 ![EU_funding_vertical.jpg](/assets/img/EU_funding_vertical.jpg){: style="float: right; height: 22%; width: 22%;"}{:class="img-responsive"}
 
-[OxyQuant](https://cordis.europa.eu/project/id/101065424){:target="_blank"} is a research project funded by the European Commission's Marie Skłodowska-Curie Global Postdoctoral Fellowship scheme. It will last three years - the first two years at the Institute of Earth Sciences at the University of Lausanne, Switzerland) and the last year at GEOMAR Helmholtz Centre for Ocean Research Kiel (Germany).
+[OxyQuant](https://cordis.europa.eu/project/id/101065424){:target="_blank"} is a research project funded by the European Commission's Marie Skłodowska-Curie Global Postdoctoral Fellowship scheme. Started in March 2023 it will last three years - the first two years at the Institute of Earth Sciences at the University of Lausanne, Switzerland) and the last year at GEOMAR Helmholtz Centre for Ocean Research Kiel (Germany).
 
 Within the OxyQuant project I aim to develop a geochemical toolkit with which we can gain quantitative information about ocean water oxygen concentrations from the composition of marine sediments. With such a toolkit, if we applied it to older, deeper buried marine sediments, we would be able to reconstruct deep ocean oxygenation in the past. My aim is to use this toolkit in order to investigate deep ocean oxygenation, carbon storage, and circulation during the peak of the last ice age, circa 21 thousand years age.
 
